@@ -9,6 +9,12 @@
   font-optical-sizing: auto;
 }
 
+.container{
+    width: 71%;
+    max-width: 1140px;
+    padding-top: 130px;
+}
+/* header section */
 header {
     background: url("/images/banner/banner1.png");
     background-size: cover;
@@ -28,6 +34,7 @@ header {
     color: #151414;
     margin-bottom: 24px;
 }
+
 .header-content p{
     font-size: 16px;
     line-height: 26px;
@@ -44,3 +51,39 @@ header {
     border: none;
     border-radius: 5px;
 }
+
+ /* section container */
+
+ .section-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 90px;
+    align-items: end;
+    margin: 0 auto;
+ }
+
+ .section-content{
+    text-align: left;
+    margin-bottom: 110px;
+ }
+
+ .section-content h2{
+    font-size: 40px;
+    max-width: 290px;
+    color: #151414;
+    margin-bottom: 24px;
+ }
+
+ .section-content .tick{
+    font-size: 16px;
+    color: #444343;
+    margin-bottom: 8px;
+ }
+
+ .section-content .section-text{
+    max-width: 416px;
+    font-size: 16px;
+    line-height: 26px;
+    color: #444343;
+    margin-bottom: 16px;
+ }
